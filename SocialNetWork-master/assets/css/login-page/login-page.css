@@ -1,0 +1,158 @@
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-color-gray {
+  color: #a7a9ac;
+}
+
+.text-decoration-none.text-color-gray:hover {
+  color: #a7a9ac;
+}
+
+#body {
+  background: #f0f2f5;
+}
+
+#body-row {
+  padding-bottom: 190px;
+  padding-top: 100px;
+}
+
+#text-wrapper {
+  margin-top: 50px;
+  width: 500px;
+  height: 80px;
+  background-color: #F26398;
+}
+
+#logo-img {
+  width: 300px;
+}
+
+#header-title {
+  font-size: 28px;
+  font-family: "SF Pro Display Regular";
+  margin-left: 30px;
+}
+
+#body-top-right {
+  width: 500px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  background: #ffffff;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  
+}
+.login-form-input {
+  height: 60px;
+  width: 400px;
+  padding-top: 14px;
+  font-size: 17px;
+}
+
+#login-form-input-password {
+  margin-top: 15px;
+}
+
+#login-btn {
+  margin-top: 15px;
+  height: 60px;
+  width: 400px;
+  font-family: "SF Pro Display Bold";
+  background-color: #F26398;
+}
+
+#forgotten-pwd-link-wrapper {
+  padding-bottom: 20px;
+  padding-top: 17px;
+}
+
+#forgotten-pwd-link {
+  font-size: 14px;
+}
+
+#create-acc-btn-wrapper {
+  width: 100%;
+  margin-top: 25px;
+}
+.form_login{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.checkbox{
+  width: 400px;
+}
+.form-check-label{
+  margin-right: 200px;
+}
+.needhelp_form{
+  text-decoration: none;
+}
+.needhelp_form:hover{
+ text-decoration: underline;
+}
+.signup-modal {
+  margin-top: 100px;
+}
+
+.modal-title-custom {
+  font-family: "SF Pro Display Bold";
+}
+
+.modal-title-description {
+  font-family: "SF Pro Display Regular";
+  font-size: 15px;
+  color: #606770;
+  margin: 0;
+}
+
+.form-control-input {
+  font-size: 15px;
+  font-family: "SF Pro Display Regular";
+}
+
+.form-description {
+  color: #606770;
+  font-family: "SF Pro Display Medium", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.gender-checkbox {
+  flex: 1;
+}
+
+.date-of-birth-wrapper div{
+  width: 230px;
+  
+}
+
+
+
+
+@media screen and (max-width: 995px) {
+  #body-row {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+  #img-wrapper {
+    margin-top: 0;
+  }
+  #body-left-bottom {
+    max-width: 410px;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  #body-left-bottom > h1 {
+    font-size: 24px;
+  }
+  #footer-wrapper {
+    padding: 0;
+  }
+}
